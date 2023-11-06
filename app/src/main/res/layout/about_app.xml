@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:text="Dastur haqida"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/dialog_title_text_size"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_cancel_dialog"
+        android:layout_below="@id/dialog_title"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        android:scrollbars="vertical"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_1"
+                android:textColor="@color/text_color"
+
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_2"
+                android:textColor="@color/text_color"
+                android:layout_marginTop="4dp"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_3"
+                android:textColor="@color/text_color"
+                android:layout_marginTop="4dp"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_4"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_5"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_6"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_7"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_8"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_9"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_10"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_11"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_12"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_13"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/btn_cancel_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="Tushunarli"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/dialog_exit_text_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

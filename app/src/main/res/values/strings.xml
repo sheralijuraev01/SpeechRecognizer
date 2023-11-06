@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nutq Terapiya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="about_app_1">     Nutq terapiya -  afaziyali (nutki yo‘qolgan) insonlar nutqini o‘zbektilida multimediyali ko‘rgazmali mobil ilova yordamida reabilitatsiya qilish -tiklash uchunmo‘ljallangan. Afaziya bu to‘liq yoki qisman yo‘qolgan nutq buzilishi bo‘lib, nutq funksiyasiuchun javobgar bosh miya bo‘limlarining  zararlanishi tufayli kelib chiqadi. Lug‘atiy maʼnodaafaziya so‘zi a – yo‘qotish, fazis – nutq maʼnosini bildiradi. O‘tkazilgan insultdan so‘ng afaziyalarRossiya ilmiy tekshirish instituti insult registrining ko‘rsatkichlariga ko‘ra 25% - 30% xollarda,O‘zbekiston  2019 yil milliy insult registrining ko‘rsatkichi bo‘yicha esa chap o‘rta miyaarteriyalari zararlangan bemorlarda 80% gacha kuzatilgan. </string>
+    <string name="about_app_2">     Insult o‘tkazgan bemorlar reabilitatsiyasiga ko‘pgina mutaxassislardan iborat multidissiplinar komanda jalb qilinishi lozim (nevrolog, reanimatolog, logoped, kinezoterapevt, davolovchi jismoniy tarbiya instruktorlari va boshqalar). O‘tkazilgan mashg‘ulotlar shuni ko‘rsatadiki, bemorlarda eng yaxshi nutq tiklanishi mashg‘ulotlarni erta boshlanganida   kuzatilar ekan, buning sababi:  bemorlarda o‘z shaxsiyatlariga nisbatan gapira olmaydigan inson kabi patologik munosabatni rivojlanib ulgurmasligi sabab bo‘ladi. Qanchalik “nutq qoldiqlari” hajmini bashoratlash,  o‘tkir  insultdan so‘ng    nutq buzilishi darajasini aniqlash oson emas.  </string>
+    <string name="about_app_3">     Insult o‘tkazgan afaziyali bemorlar nutqini tiklash uchun biz Nutq terapiya-  o‘zbek tilida multimediyali ko‘rgazmali mobil ilova taklif qilamiz. Bu mobil ilova yordamida nutqi yo‘qolgan insonlar bilan respublikamizning barcha joylarida:  </string>
+    <string name="about_app_4">    •Shifokorlar-nevrologlar </string>
+    <string name="about_app_5">	   •Logopedlar  </string>
+    <string name="about_app_6">	   •Bemor yaqin qarindoshlari  </string>
+    <string name="about_app_7">	   •Dars beruvchi institut o‘qituvchilari  </string>
+    <string name="about_app_8">	   •Talaba, klinik ordinator va magistrlar bemorlarda nutq reabilitatsiyasida -tiklashda foydalanishlari mumkin.   </string>
+    <string name="about_app_9">  	Nutq terapiya – multimediyali mobil ilova bilan nafaqat insultdan keyingi afaziyali bemorlar, balki qon -tomir demetsiyali, bosh miya jarohatlaridan keyingi, yallig‘lanish tufayli kelib chiqqan nutq buzilishlarida ham foydalanish mumkin.  </string>
+    <string name="about_app_10">    Bundan tashqari</string>
+    <string name="about_app_11">    -Dasturdan har kuni 20–30 daqiqa foydalanish tavsiya qilinadi</string>
+    <string name="about_app_12">    -Bu dastur insuldan keyingi yoki baxtsiz hodisa tufayli miyanig dinamikga javob beradigan qizmi qisman buzilgan hollarda uy sharoida malum darajada nutqni tiklashga yordam beradigan mashqlar toplamidan tuzilgan  </string>
+    <string name="about_app_13">    -Dasturni yaratish uchun uzbekiton sharoit otganib chiqilgan holda xoriji (germaniya ,AQSh) kabi yetakchi davlatlarnigtajribasi inobatga olgan holda yaratiladi   </string>
+
+
+</resources>

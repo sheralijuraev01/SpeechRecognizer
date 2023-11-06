@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/intro_btn_height"
+        android:layout_marginHorizontal="40dp"
+        android:text="Boshlash"
+        android:textAllCaps="false"
+        android:textSize="@dimen/intro_btn_text_size"
+        android:textStyle="bold"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/informationBtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/intro_btn_height"-->
+<!--        android:layout_marginHorizontal="40dp"-->
+<!--        android:text="Foydali ma'lumotlar"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textSize="@dimen/intro_btn_text_size"-->
+<!--        android:textStyle="bold"/>-->
+
+    <Button
+        android:id="@+id/aboutApp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/intro_btn_height"
+        android:layout_marginHorizontal="40dp"
+        android:text="Dastur haqida"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="@dimen/intro_btn_text_size"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/intro_btn_height"
+        android:layout_marginHorizontal="40dp"
+        android:text="Chiqish"
+        android:textAllCaps="false"
+        android:textSize="@dimen/intro_btn_text_size"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>

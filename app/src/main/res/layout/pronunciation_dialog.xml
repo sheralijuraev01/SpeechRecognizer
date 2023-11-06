@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:paddingBottom="24dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="16dp"
+        android:text="Dastur haqida"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/dialog_title_text_size"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_scroll_height"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        android:scrollbars="vertical"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/dialogBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_1"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/dialog_body_text_size" />
+
+            <ImageView
+                android:id="@+id/dialogImage"
+                android:layout_width="@dimen/dialog_image_width"
+                android:layout_height="@dimen/dialog_image_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="16dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <TextView
+        android:id="@+id/dialog_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="Tushunarli"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/dialog_exit_text_size"
+        android:textStyle="bold" />
+
+</LinearLayout>
